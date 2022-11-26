@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
 
 #Copiar o endereço do seu google drive onde esta rodando o projeto e o arquivo 'diabetes.csv' esta dentro.
-dados = pd.read_csv("diabetes.csv")vírgula
+dados = pd.read_csv("diabetes.csv")
 
 #planilha.info()
 nomesColunas = planilha.columns.to_list() #Nomes recebem todas as colunas e são colocadas numa lista
